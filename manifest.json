@@ -19,8 +19,7 @@
     "web_accessible_resources": [
         {
             "resources": [
-                "lib/socket-sniffer.js",
-                "lib/jquery.min.js"
+                "lib/socket-sniffer.js"
             ],
             "matches": [
                 "<all_urls>"

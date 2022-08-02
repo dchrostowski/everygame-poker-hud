@@ -15,11 +15,6 @@ function init() {
 
 
 
-    const jQuery = document.createElement('script')
-    jQuery.src = webBrowser.runtime.getURL('lib/jquery.min.js')
-    jQuery.id = "injectedJQuery"
-
-
     const socketIntercept = document.createElement('script');
     socketIntercept.src = webBrowser.runtime.getURL('lib/socket-sniffer.js');
     socketIntercept.onload = function () {
@@ -30,7 +25,6 @@ function init() {
     const headOrBody = (document.head || document.body)
 
 
-    headOrBody.appendChild(jQuery)
     headOrBody.appendChild(socketIntercept)
 
     chrome.runtime.onMessage.addListener(
