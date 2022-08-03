@@ -11,7 +11,8 @@
     },
     "permissions": [
         "webRequest",
-        "activeTab"
+        "activeTab",
+        "storage"
     ],
     "action": {
         "default_icon": "icon.png"
@@ -19,6 +20,7 @@
     "web_accessible_resources": [
         {
             "resources": [
+                "lib/inject_react.js",
                 "lib/socket-sniffer.js"
             ],
             "matches": [

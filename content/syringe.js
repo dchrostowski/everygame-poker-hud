@@ -1,3 +1,4 @@
+
 function init() {
 
     let webBrowser
@@ -13,6 +14,11 @@ function init() {
         console.log('received', data);
     });
 
+    const reactDevToolsInject = document.createElement('script')
+    reactDevToolsInject.src = webBrowser.runtime.getURL('lib/inject_react.js');
+    reactDevToolsInject.onload = function () {
+        this.remove()
+    }
 
 
     const socketIntercept = document.createElement('script');
@@ -22,10 +28,11 @@ function init() {
     };
 
 
-    const headOrBody = (document.head || document.body)
+    const headOrBody = (document.head||document.documentElement)
 
-
+    headOrBody.appendChild(reactDevToolsInject)
     headOrBody.appendChild(socketIntercept)
+
 
     chrome.runtime.onMessage.addListener(
         function (request, sender, sendResponse) {
@@ -34,6 +41,14 @@ function init() {
     );
 
 
+
+
 }
 
 init()
+
+
+
+
+
+
