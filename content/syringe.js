@@ -14,11 +14,11 @@ function init() {
         console.log('received', data);
     });
 
-    const reactDevToolsInject = document.createElement('script')
-    reactDevToolsInject.src = webBrowser.runtime.getURL('lib/inject_react.js');
-    reactDevToolsInject.onload = function () {
-        this.remove()
-    }
+    // const reactDevToolsInject = document.createElement('script')
+    // reactDevToolsInject.src = webBrowser.runtime.getURL('lib/inject_react.js');
+    // reactDevToolsInject.onload = function () {
+    //     this.remove()
+    // }
 
 
     const socketIntercept = document.createElement('script');
@@ -30,7 +30,7 @@ function init() {
 
     const headOrBody = (document.head||document.documentElement)
 
-    headOrBody.appendChild(reactDevToolsInject)
+    //headOrBody.appendChild(reactDevToolsInject)
     headOrBody.appendChild(socketIntercept)
 
 

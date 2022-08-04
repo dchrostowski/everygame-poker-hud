@@ -80634,7 +80634,7 @@ pokerapp.BridgeLobbyService = DataexService.extend({
             "getMachineId", {}, !0)
     },
     getIPAddress: function () {
-        return this.sendRequest(this._targetWindowRef, "getIPAddress", {}, !0)
+        return this.sendRequest(this._targetWindowRef, "getIPAddress", {}, !0
     },
     openGameViewFromLobby: function (a) {
         return this.sendRequest(this._targetWindowRef, "openGameViewFromLobby", {}, !0)
