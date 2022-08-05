@@ -22,7 +22,7 @@
                 "lib/socket-sniffer.js"
             ],
             "matches": [
-                "<all_urls>"
+                "https://client.horizonpokernetwork.eu/*"
             ]
         }
     ],
@@ -39,6 +39,6 @@
         }
     ],
     "host_permissions": [
-        "<all_urls>"
+        "https://client.horizonpokernetwork.eu/rweb/prod/v47/everygame/"
     ]
 }
