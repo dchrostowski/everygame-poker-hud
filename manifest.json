@@ -19,7 +19,11 @@
     "web_accessible_resources": [
         {
             "resources": [
-                "lib/socket-sniffer.js"
+                "lib/socket-sniffer.js",
+                "lib/jquery.min.js",
+                "lib/jquery.modal.min.js",
+                "lib/jquery.modal.min.css",
+                "lib/modal.css"
             ],
             "matches": [
                 "https://client.horizonpokernetwork.eu/*"
