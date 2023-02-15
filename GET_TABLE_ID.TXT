@@ -1,0 +1,2 @@
+how to get table id
+pokerapp.UIAppViewManager.getInstance().getActiveView().getPokerGame().getGameHeader().tableId
