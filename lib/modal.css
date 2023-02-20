@@ -4,7 +4,7 @@
     justify-content: space-between;
 }
 
-.hud-preflop-advice {
+.hud-preflop-advice .hud-muck-advice {
     font-size:0.9em;
 }
 
