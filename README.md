@@ -2,6 +2,9 @@
 
 ### Privacy Disclaimer
 This software logs every aspect of your poker game including your dealt cards.  This data is stored in a database and cannot be deleted.  You acknowledge and agree that you have no expectation of privacy while using this software.
+
+### Screenshot
+![HUD pictured top left](/screenshot.png?raw=true)
 ### How to use
 Download a copy of this repository and open Google Chrome.  Go to Settings -> Extensions and toggle on Developer mode.  Click on Load unpacked and then browse to the root directory of this repository. After installing the Chrome extension proceed to https://poker.evergame.eu.  Click on INSTANT PLAY to play from your browser and login on the next screen. Join either a cash game or tournament and the HUD should pop up on the screen at the conclusion of the current hand.
 
