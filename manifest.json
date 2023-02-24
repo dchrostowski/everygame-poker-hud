@@ -2,8 +2,8 @@
     "manifest_version": 3,
     "name": "Every Game Poker Data Miner",
     "version": "0.0.1",
-    "description": "Saves poker hand data to local file for StockPokerOnline.com and RounderCasino.com",
-    "homepage_url": "https://github.com/dchrostowski/poker_hand_recorder_stock_rounder",
+    "description": "Heads-up display for everygame.eu online poker",
+    "homepage_url": "https://git.streetscrape.com/dan/everygame-poker-hud",
     "icons": {
         "120": "icon-120.png",
         "48": "icon-48.png",
