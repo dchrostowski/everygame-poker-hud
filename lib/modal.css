@@ -55,3 +55,11 @@
 .unicode-cards {
     font-size: 1.35em;
 }
+
+tr.low-sample-size {
+    background-color: lightcoral;
+}
+
+tr.high-sample-size {
+    background-color: lightgreen;
+}
