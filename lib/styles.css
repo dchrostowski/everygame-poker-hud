@@ -70,7 +70,7 @@ td.low-sample-size {
 }
 
 td.medium-sample-size {
-    color: rgb(220, 173, 0);
+    color: rgb(137, 107, 0);
 
 }
 
@@ -78,12 +78,17 @@ td.high-sample-size {
     color: green;
 }
 
-label.hud-footer-options {
-    margin-left:5px;
-    margin-right:5px;
-    font-size:0.75em;
+label.hud-footer-options-left {
+    font-size:0.7em;
+    width:24%;
 }
 
-.hud-footer-options {
-    width:33%;
+.hud-footer-options-right {
+    width:36%;
+}
+
+.hud-footer-options-center {
+    font-size: 0.7em;
+    width: 50%;
+
 }
