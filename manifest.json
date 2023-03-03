@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Every Game Poker Data Miner",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "description": "Heads-up display for everygame.eu online poker",
     "homepage_url": "https://git.streetscrape.com/dan/everygame-poker-hud",
     "icons": {
@@ -21,9 +21,9 @@
             "resources": [
                 "lib/socket-sniffer.js",
                 "lib/jquery.min.js",
-                "lib/jquery.modal.min.js",
-                "lib/jquery.modal.min.css",
-                "lib/modal.css"
+                "lib/jquery-ui.min.js",
+                "lib/jquery-ui.min.css",
+                "lib/styles.css"
             ],
             "matches": [
                 "https://client.horizonpokernetwork.eu/*"

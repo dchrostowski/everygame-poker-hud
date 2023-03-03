@@ -1,3 +1,7 @@
+.hud-main {
+    border-radius: 5px;
+}
+
 .hud-container {
     display:flex;
     flex-direction: column;
@@ -57,13 +61,29 @@
 }
 
 .unicode-cards {
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
-tr.low-sample-size {
-    background-color: lightcoral;
+td.low-sample-size {
+    color: red;
+    font-weight:bold;
 }
 
-tr.high-sample-size {
-    background-color: lightgreen;
+td.medium-sample-size {
+    color: rgb(220, 173, 0);
+
+}
+
+td.high-sample-size {
+    color: green;
+}
+
+label.hud-footer-options {
+    margin-left:5px;
+    margin-right:5px;
+    font-size:0.75em;
+}
+
+.hud-footer-options {
+    width:33%;
 }

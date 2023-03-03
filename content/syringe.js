@@ -18,18 +18,18 @@ function init() {
     jQuery.src = webBrowser.runtime.getURL('lib/jquery.min.js')
     jQuery.id = "injectedJQuery"
 
-    const jQueryModal = document.createElement('script')
-    jQueryModal.src = webBrowser.runtime.getURL('lib/jquery.modal.min.js')
-    jQueryModal.id = "injectedJQueryModal"
+    const jQueryUI = document.createElement('script')
+    jQueryUI.src = webBrowser.runtime.getURL('lib/jquery-ui.min.js')
+    jQueryUI.id = "injectedJQueryUI"
 
-    const jQueryModalCSS = document.createElement('link')
-    jQueryModalCSS.rel="stylesheet"
-    jQueryModalCSS.href = webBrowser.runtime.getURL('lib/jquery.modal.min.css')
-    jQueryModalCSS.id = "injectedJQueryModalCSS"
+    const jQueryUICSS = document.createElement('link')
+    jQueryUICSS.rel = "stylesheet"
+    jQueryUICSS.href = webBrowser.runtime.getURL('lib/jquery-ui.min.css')
+    jQueryUICSS.id = "injectedJQueryUICSS"
 
     const customCSS = document.createElement('link')
-    customCSS.rel="stylesheet"
-    customCSS.href = webBrowser.runtime.getURL('lib/modal.css')
+    customCSS.rel = "stylesheet"
+    customCSS.href = webBrowser.runtime.getURL('lib/styles.css')
     customCSS.id = "customCSS"
 
 
@@ -40,11 +40,11 @@ function init() {
     };
 
 
-    const headOrBody = (document.head||document.documentElement)
+    const headOrBody = (document.head || document.documentElement)
 
     headOrBody.appendChild(jQuery)
-    headOrBody.appendChild(jQueryModal)
-    headOrBody.appendChild(jQueryModalCSS)
+    headOrBody.appendChild(jQueryUI)
+    headOrBody.appendChild(jQueryUICSS)
     headOrBody.appendChild(socketIntercept)
     headOrBody.appendChild(customCSS)
 
