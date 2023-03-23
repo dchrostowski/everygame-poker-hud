@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Every Game Poker Data Miner",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Heads-up display for everygame.eu online poker",
     "homepage_url": "https://git.streetscrape.com/dan/everygame-poker-hud",
     "icons": {
