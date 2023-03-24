@@ -36,7 +36,7 @@ The opacity slider is located at the bottom right-hand corner of the HUD.  Swipi
 The HUD calculates fairly common statistics for each player at the table and include a hand sample size (**Hands**), *voluntary-put-into-pot* (**VPIP**), *pre-flop-raise* (**PFR**), preflop *three-bet* (**3BET**), **won-when-saw-flop** (**WWSF**), *went-to-showdown*, (**WTSD**), *won-at-showdown* (**WSD**), and *aggression* (**AG**) These stats are accumulated communally by all players using the browser extension.  For information on what each of these statistics are and how they should be used, please see https://upswingpoker.com/poker-hud-stats/.
 
 ## Future Devleopment
-I do intend to include additional statistics in later releases.  Please create an issue (here)[https://github.com/dchrostowski/everygame-poker-hud/issues] to request new statistic you'd like included and I will attempt to implement it as time permits.
+I do intend to include additional statistics in later releases.  Please create an issue [here](https://github.com/dchrostowski/everygame-poker-hud/issues) to request new statistic you'd like included and I will attempt to implement it as time permits.
 
 
 ### Limitation of Liability
