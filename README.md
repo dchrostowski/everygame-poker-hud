@@ -18,7 +18,7 @@ When you install this browser extension and observe or play at a table on [poker
 When entering a cash table, you should notice the HUD interface spawn in the top left-hand corner with nothing populated.  Once the next hand begins a list of players and numbers should populate.  If sitting on the left-hand side of the table, the HUD should automatically reposition itself over to the right unless the user has already repositioned it.  When switching to other tables, the HUD for the last table will disappear after a few moments and a new HUD for the current table will appear.
 
 ### Minimizing/Maximizing
-The HUD interface can be changed to two different minimized states.  This is particularly helpful if playing on a small monitor or on mobile.  Tapping the [=] button at the top left corner of the HUD will collapse the player stat table.  Tapping the [+] on the header will re-expand the player list.  Tapping the < button on the upper right corner of the HUD will reduce the HUD to a small block. This can be helpful if the HUD is obstructinmg the view of the game.
+The HUD interface can be changed to two different minimized states.  This is particularly helpful if playing on a small monitor or on mobile.  Tapping the [-] button at the top left corner of the HUD will collapse the player stat table.  Tapping the [+] on the header will re-expand the player list.  Tapping the < button on the upper right corner of the HUD will reduce the HUD to a small block. This can be helpful if the HUD is obstructinmg the view of the game.
 
 ### Repositioning
 The HUD can easily be repositioned by simply dragging and dropping with a mouse cursor (drag and drop does not work on mobile)
