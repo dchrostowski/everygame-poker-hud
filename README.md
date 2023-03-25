@@ -1,7 +1,7 @@
 # Heads Up Display for everygame.eu Online Poker ###
 
 ## Disclaimer
-I am not affiliated with everygame.eu in any way and I did not check if using this software violates everygame.eu's terms and conditions.  I have been using it myself for a while and no one has noticed or said anything to me yet.  Regardless, I am not responsible if you get sued or your account gets banned for using this software.  It is ultimately your choice to use this software and you accept all risks associated with it.
+I am not affiliated with everygame.eu in any way and I did not check if using this software violates everygame.eu's terms and conditions.  I have been using it myself for a while and no one has noticed or said anything to me yet.  Regardless, I am not responsible if you get sued or your account gets banned for using this software.  It is ultimately your choice and you accept all risks associated with it.
 
 ## Privacy Disclaimer
 This software logs every aspect of your poker game including your dealt cards.  This data is stored in a database and cannot be deleted.  You acknowledge and agree that you have no expectation of privacy while using this software.
